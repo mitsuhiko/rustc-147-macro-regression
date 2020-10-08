@@ -1,0 +1,11 @@
+[package]
+name = "z"
+version = "0.1.0"
+authors = ["Armin Ronacher <armin.ronacher@active-4.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+scroll = { version = "0.10.1", features = ["derive"] }
+scroll_derive = "0.10.2"
