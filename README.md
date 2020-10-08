@@ -8,7 +8,7 @@ rustc 1.47.0 (18bf6b4f0 2020-10-07)
 
 ## Working Code
 
-```
+```rust
 use scroll_derive::SizeWith;
 
 macro_rules! works {
